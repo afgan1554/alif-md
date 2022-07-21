@@ -1,9 +1,9 @@
 let fs = require('fs')        
 let chalk = require('chalk')
 global.owner = [
-  ['6289509960601'],
-  ['6289509960601'],
-  ['6289509960601', 'Deffri Gans', true]  
+  ['6282125968810'],
+  ['6282125968810'],
+  ['6282125968810', 'Owner', true]  
   
 ] 
 global.ownername = [['Afgan  ID']]
