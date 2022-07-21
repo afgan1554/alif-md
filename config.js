@@ -6,13 +6,13 @@ global.owner = [
   ['6289509960601', 'Deffri Gans', true]  
   
 ] 
-global.ownername = [['𝐃𝐞𝐟𝐟𝐫𝐢 𝐆𝐚𝐧𝐬']]
-global.namabot = [['𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛']]
+global.ownername = [['Afgan  ID']]
+global.namabot = [['kanna BOT']]
 global.ownerinsta = [['@b4c00t.dtz']]
-global.instalu = [['instagram.com/b4c00t.dtz']]
-global.ytlu = [['https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA']]
+global.instalu = [['instagram.com']]
+global.ytlu = [['https://youtube.com']]
 global.mods = [] 
-global.prems = ['6289509960601'] 
+global.prems = ['6282125968810'] 
 
 global.APIs = { 
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -43,8 +43,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '𝐃𝐞𝐟𝐟𝐫𝐢 𝐆𝐚𝐧𝐬'
-  var sticker_author = '© 𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛'
+  var sticker_name = 'Afgan  ID'
+  var sticker_author = '© kanna BOT'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -59,9 +59,9 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-global.packname = '𝐃𝐞𝐟𝐟𝐫𝐢 𝐆𝐚𝐧𝐬'
-global.author = '𝑮𝒂𝒏𝒔𝑩𝑶𝑻𝒛'
-global.wm = '© Deffri Gans'
+global.packname = 'Afgan  ID'
+global.author = 'kabna BOT'
+global.wm = '© Afgan  ID'
 
 global.multiplier = 100
 
